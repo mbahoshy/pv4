@@ -1,0 +1,48 @@
+<!-- <div class='page-wrapper'> -->
+<div class='map-container page-wrapper'>
+	<div id="map_canvas"></div>
+	<div class='map-sidebar'>	
+		<div class='shortlisting-container'>
+			<div class='tabs'>
+				<span ng-click = "toggleTabs(0)" class='listing-tab active-tab'>Listings</span>
+				<span ng-click = "toggleTabs(1)" class='detail-tab'>Details</span>
+				<span ng-click = "toggleTabs(2)" class='search-tab'>Search</span>
+			</div>
+
+			<div id='listing_tab'>
+				<div ng-repeat="listing in listings" ng-click="listingClick($event)" ng-attr-data-listingid="{{listing._id}}">
+					{{listing.title}}<br />
+					{{listing.description}}
+				</div>
+			</div>
+
+			<div id='detail_tab'>
+				<h3>{{listing.title}}</h3>
+
+				<p>
+					{{listing.address.street}}<br />
+					{{listing.neighborhood}}<br />
+				</p>
+				<p>{{listing.description}}</p>
+				<p><label>Bedrooms:</label> {{listing.bed}}</p>
+				<p><label>Bathrooms:</label> {{listing.bath}}</p>
+				<p>${{listing.price}}</p>
+				<img ng-src='/imgs/properties/{{listing.titleImg}}' />
+				<a ng-href='#!/seattle-residential/{{listing._id}}'>View Rental</a>
+
+			</div>
+			<div id='search_tab'>
+				<p>test</p>
+			</div>
+
+		</div>
+	</div>
+	<div ng-click="toggleShortlistingContainer()" class='map-sidebar-button'>
+		<div>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+</div>
+<!-- </div> -->
