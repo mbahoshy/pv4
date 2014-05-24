@@ -1,4 +1,7 @@
 @media screen and (max-width: 960px) {
 
-
+	.option {
+		width:30%;
+		margin:0 1.5%;
+	}
 }

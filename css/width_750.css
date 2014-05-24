@@ -1,0 +1,13 @@
+@media screen and (max-width: 700px) {
+	.home-page h2 {
+		width: 50%;
+		margin: 0 25% 31px 25%;
+	}
+
+
+	.option {
+		width:46%;
+		margin:2%;
+	}
+
+}

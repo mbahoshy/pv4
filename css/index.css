@@ -1,0 +1,63 @@
+
+.home-page h1 {
+	font-size: 23px;
+	font-weight: normal;
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin: 60px 0 20px;
+}
+
+.home-page h2 {
+	font-size: 34px;
+	float: left;
+	width: 25%;
+	text-align: center;
+	margin: 0 37.5% 50px 37.5%;
+}
+
+
+.option {
+	float:left;
+	width:27%;
+	margin:0 3%;
+	height:420px;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+}
+
+.about-me {
+	background: url('../imgs/about_me_img.jpg');
+}
+
+.about-me > .disp-none {
+	background: url('../imgs/about_me_img_hover.jpg') !important;
+}
+
+.about-me:hover {
+	background: url('../imgs/about_me_img_hover.jpg');
+}
+
+.portfolio {
+	background: url('../imgs/portfolio_img.jpg');
+}
+
+.portfolio > .disp-none {
+	background: url('../imgs/portfolio_img_hover.jpg') !important;
+}
+
+.portfolio:hover {
+	background: url('../imgs/portfolio_img_hover.jpg');
+}
+
+.resume {
+	background: url('../imgs/resume_img.jpg');
+}
+
+.resume > .disp-none {
+	background: url('../imgs/resume_img_hover.jpg') !important;
+}
+
+.resume:hover {
+	background: url('../imgs/resume_img_hover.jpg');
+}

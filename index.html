@@ -13,26 +13,25 @@
 	<link rel='stylesheet' href='css/index.css'>
 	<link rel='stylesheet' href='css/width_960.css'>
 	<link rel='stylesheet' href='css/width_860.css'>
-	<link rel='stylesheet' href='css/width_700.css'>
+	<link rel='stylesheet' href='css/width_750.css'>
 	<link rel='stylesheet' href='css/width_540.css'>
 
 
 	<script type="text/javascript" src='js/main.js'></script>
 	<script type="text/javascript" src='js/routes-ng.js'></script>
 	<script type="text/javascript" src='js/controllers/controller.js'></script>
-	<script type="text/javascript" src='js/directives/header-directive.js'></script>
-
-
-
-	<base href="/">
 
 
 </head>
 <body>
-
+<!-- 
 <div header>
+</div> -->
+<div ng-view id='page'>
 </div>
-<div autoscroll="true" ng-view id='page'>
+
+<div class='page-wrapper'>
+	<div id='footer'></div>
 </div>
 </body>
 </html>
