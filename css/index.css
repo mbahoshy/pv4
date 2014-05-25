@@ -95,6 +95,32 @@
 
 }
 
+.content-holder {
+	width:95%;
+	float: left;
+	margin-left: 5%;
+}
+
+.content-holder p {
+	margin-left:5%;
+	line-height: 1.5em;
+}
+
+.content-holder em {
+	text-decoration: underline;
+}
+
+.content-holder h3 {
+	font-size:36px;
+}
+
+.half-p {
+	width:44%;
+	float: left;
+	margin: 15px 3%;
+	text-align: justify;
+}
+
 .portfolio-nav-wrapper {
 	width: 200%;
 	float: left;
@@ -120,4 +146,11 @@
 
 .portfolio-nav span:hover {
 	background-color: blue;
+}
+
+.project-link {
+	width: 96%;
+	float: left;
+	margin-left: 5%;
+	text-decoration: none;
 }

@@ -29,6 +29,7 @@ body h1 {
 	font-weight: normal;
 	float: left;
 	width: 100%;
+	color: #8D8D8D;
 
 }
 
@@ -37,4 +38,6 @@ body h2 {
 	margin: 0 0 50px 0;
 	float: left;
 	width: 100%;
+	color: #8D8D8D;
+	
 }
