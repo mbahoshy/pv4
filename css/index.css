@@ -77,14 +77,47 @@
 .sidebar {
 	float:left;
 	width:27%;
-	margin:0 3%;
+	padding:0 3%;
 	height:100%;
 	border-right: 1px solid #DFDFDF;
 }
 
 .sidebar span {
-	width: 85%;
+	width: 90%;
 	float: left;
-	margin:20px 15% 20px 0;
+	margin:20px 10% 20px 0;
 	text-align: right;
+}
+
+.content {
+	width: 66%;
+	float: left;
+
+}
+
+.portfolio-nav-wrapper {
+	width: 200%;
+	float: left;
+	margin:40px 0;
+	padding: 15px 0;
+	border-top: 1px solid #DFDFDF;
+	border-bottom: 1px solid #DFDFDF;
+	background-color: #F1EDED;
+}
+
+.portfolio-nav {
+	width: 50%;
+	float: left;
+
+}
+
+.portfolio-nav span {
+	width: 20%;
+	text-align: center;
+	color: blue;
+	float: left;
+}
+
+.portfolio-nav span:hover {
+	background-color: blue;
 }
