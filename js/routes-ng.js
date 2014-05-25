@@ -4,6 +4,18 @@ pv4.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
 		templateUrl: '../views/home-view.html',
 		controller: 'HomeController'
 	});
+	$routeProvider.when('/about-me', {
+		templateUrl: '../views/about-me-view.html',
+		controller: 'AboutController'
+	});
+	$routeProvider.when('/portfolio', {
+		templateUrl: '../views/portfolio-view.html',
+		controller: 'PortfolioController'
+	});
+	$routeProvider.when('/resume', {
+		templateUrl: '../views/resume-view.html',
+		controller: 'ResumeController'
+	});
 	// $routeProvider.when('/seattle-properties/:neighborhood/:size/:price', {
 	// 	templateUrl: '../views/map-view.html',
 	// 	controller: 'mapController'

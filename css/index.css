@@ -1,19 +1,6 @@
 
-.home-page h1 {
-	font-size: 23px;
-	font-weight: normal;
-	float: left;
-	width: 100%;
+.home-page h1, .home-page h2  {
 	text-align: center;
-	margin: 60px 0 20px;
-}
-
-.home-page h2 {
-	font-size: 34px;
-	float: left;
-	width: 25%;
-	text-align: center;
-	margin: 0 37.5% 50px 37.5%;
 }
 
 
@@ -25,6 +12,18 @@
 	background-repeat: no-repeat !important;
 	background-position: center !important;
 }
+
+.option span {
+	/*color: rgb(8, 142, 248);*/
+	color: rgb(192, 0, 8);
+	font-style: italic;
+	float:left;
+	width: 100%;
+	padding: 5px 0;
+	text-align: center;
+	font-weight: bold;
+}
+
 
 .about-me {
 	background: url('../imgs/about_me_img.jpg');
@@ -60,4 +59,32 @@
 
 .resume:hover {
 	background: url('../imgs/resume_img_hover.jpg');
+}
+
+.links {
+	width:40%;
+	margin:0 30%;
+	float: left;
+}
+
+.links img {
+	float: left;
+	width:15%;
+	margin:0 9%;
+}
+
+
+.sidebar {
+	float:left;
+	width:27%;
+	margin:0 3%;
+	height:100%;
+	border-right: 1px solid #DFDFDF;
+}
+
+.sidebar span {
+	width: 85%;
+	float: left;
+	margin:20px 15% 20px 0;
+	text-align: right;
 }

@@ -21,3 +21,19 @@ body {
 .disp-none {
 	display: none;
 }
+
+body h1 {
+	font-size: 23px;
+	margin: 60px 0 20px;
+	font-weight: normal;
+	float: left;
+	width: 100%;
+
+}
+
+body h2 {
+	font-size: 34px;
+	margin: 0 0 50px 0;
+	float: left;
+	width: 100%;
+}
