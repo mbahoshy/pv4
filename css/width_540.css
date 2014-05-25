@@ -10,5 +10,13 @@
 		width:30%;
 		margin:20px 35%;
 	}
-	
+
+	.content-holder h3 {
+		font-size: 26px;
+	}
+
+	.half-p {
+		width:92%;
+		margin: 15px 4%;
+	}
 }

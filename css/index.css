@@ -89,6 +89,16 @@
 	text-align: right;
 }
 
+.sidebar-button {
+	width: 20px;
+	height:100px;
+	background-color: red;
+	position: fixed;
+	left:0;
+	top:25%;
+	display: none;
+}
+
 .content {
 	width: 66%;
 	float: left;
