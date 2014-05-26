@@ -10,7 +10,7 @@ pv4.controller("PortfolioController", function ($scope) {
 
 
 	$scope.portfolio = 'active-nav';
-
+	$scope.headbar = 'headbar-portfolio';
 	var toggleCounter = 0;
 
 	$scope.sidebarToggle = function () {
@@ -47,4 +47,6 @@ pv4.controller("AboutController", function ($scope) {
 
 
 	$scope.about = 'active-nav';
+	$scope.headbar = 'headbar-about';
+
 });
