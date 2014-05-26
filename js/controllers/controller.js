@@ -1,4 +1,4 @@
-pv4.controller("HomeController", function ($scope, $location, $http) {
+pv4.controller("HomeController", function ($scope) {
 
 
 
@@ -6,7 +6,10 @@ pv4.controller("HomeController", function ($scope, $location, $http) {
 	console.log('home page');
 });
 
-pv4.controller("PortfolioController", function ($scope, $location, $http) {
+pv4.controller("PortfolioController", function ($scope) {
+
+
+	$scope.portfolio = 'active-nav';
 
 	var toggleCounter = 0;
 
@@ -32,4 +35,16 @@ pv4.controller("PortfolioController", function ($scope, $location, $http) {
 	}
 
 
+});
+
+pv4.controller("ResumeController", function ($scope) {
+
+
+	$scope.resume = 'active-nav';
+});
+
+pv4.controller("AboutController", function ($scope) {
+
+
+	$scope.about = 'active-nav';
 });

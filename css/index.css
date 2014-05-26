@@ -15,13 +15,15 @@
 
 .option span {
 	/*color: rgb(8, 142, 248);*/
-	color: rgb(192, 0, 8);
-	font-style: italic;
+	/*color: rgb(192, 0, 8);*/
+	color: rgba(253, 0, 11, 0.66);
+	/*font-style: italic;*/
 	float:left;
 	width: 100%;
 	padding: 5px 0;
 	text-align: center;
 	font-weight: bold;
+	text-decoration: underline;
 }
 
 
@@ -76,17 +78,15 @@
 
 .sidebar {
 	float:left;
-	width:27%;
-	padding:0 3%;
+	width:33%;
 	height:100%;
-	border-right: 1px solid #DFDFDF;
 }
 
 .sidebar span {
 	width: 90%;
 	float: left;
-	margin:20px 10% 20px 0;
-	text-align: right;
+	padding:20px 0 20px 10%;
+	text-align: left;
 }
 
 .sidebar-button {
@@ -102,6 +102,7 @@
 .content {
 	width: 66%;
 	float: left;
+	border-left: 1px solid #DFDFDF;
 
 }
 
@@ -109,6 +110,7 @@
 	width:95%;
 	float: left;
 	margin-left: 5%;
+	margin-bottom:80px;
 }
 
 .content-holder p {
@@ -124,6 +126,14 @@
 	font-size:36px;
 }
 
+.content-holder img {
+	float: left;
+	width: 100%;
+	box-shadow: 2px 2px 4px #CCCCCC;
+	margin: 80px 0;
+	border: 1px solid rgba(66, 187, 255, 0.66);
+}
+
 .half-p {
 	width:44%;
 	float: left;
@@ -131,7 +141,7 @@
 	text-align: justify;
 }
 
-.portfolio-nav-wrapper {
+.headbar-wrapper {
 	width: 200%;
 	float: left;
 	margin:40px 0;
@@ -141,21 +151,10 @@
 	background-color: #F1EDED;
 }
 
-.portfolio-nav {
+.headbar {
 	width: 50%;
 	float: left;
 
-}
-
-.portfolio-nav span {
-	width: 20%;
-	text-align: center;
-	color: blue;
-	float: left;
-}
-
-.portfolio-nav span:hover {
-	background-color: blue;
 }
 
 .project-link {
@@ -163,4 +162,24 @@
 	float: left;
 	margin-left: 5%;
 	text-decoration: none;
+}
+
+.skills-container {
+	width: 66%;
+	margin:40px 16.5%;
+	float:left;
+}
+
+.skills-container span {
+	float: left;
+	width: 33%;
+	text-align: center;
+	font-style: italic;
+	margin:10px 0;
+	color: rgba(253, 0, 11, 0.66);
+}
+
+
+.active-nav {
+	background-color: blue;
 }

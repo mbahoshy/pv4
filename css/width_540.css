@@ -19,4 +19,9 @@
 		width:92%;
 		margin: 15px 4%;
 	}
+
+	.skills-container span {
+		width: 100%;
+	}
+
 }
