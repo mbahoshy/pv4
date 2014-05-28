@@ -123,7 +123,7 @@
 }
 
 .content-holder h3 {
-	font-size:36px;
+	font-size:34px;
 }
 
 .content-holder img {
@@ -139,6 +139,13 @@
 	float: left;
 	margin: 15px 3%;
 	text-align: justify;
+}
+
+.half-p span {
+	width:100%;
+	float: left;
+	text-align: center;
+	padding:12px;
 }
 
 .headbar-wrapper {
