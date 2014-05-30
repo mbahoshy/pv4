@@ -1,17 +1,17 @@
 pv4.controller("HomeController", function ($scope) {
 
-
+	$('#footer').removeClass('fborder');
 
 
 	console.log('home page');
 });
 
 pv4.controller("PortfolioController", function ($scope) {
-
+	$scope.pageclass = 'gPage';
 
 	$scope.portfolio = 'active-nav';
 	$scope.headbar = 'headbar-portfolio';
-
+	$('body').removeClass('gbody');
 
 
 
@@ -43,13 +43,18 @@ pv4.controller("SidebarController", function ($scope) {
 });
 
 pv4.controller("ResumeController", function ($scope) {
+	$('#footer').addClass('fborder');
 
+
+	$scope.pageclass = 'gPage';
 
 	$scope.resume = 'active-nav';
 });
 
 pv4.controller("AboutController", function ($scope) {
+	$('#footer').addClass('fborder');
 
+	$scope.pageclass = 'gPage';
 
 	$scope.about = 'active-nav';
 	$scope.headbar = 'headbar-about';
