@@ -49,6 +49,8 @@ pv4.controller("ResumeController", function ($scope) {
 	$scope.pageclass = 'gPage';
 
 	$scope.resume = 'active-nav';
+	$scope.headbar = 'headbar-resume';
+
 });
 
 pv4.controller("AboutController", function ($scope) {

@@ -41,7 +41,7 @@
 
 .fborder {
 	border-top: 12px solid #616161;
-	
+
 }
 
 
@@ -66,4 +66,30 @@ body h2 {
 	width: 100%;
 	color: #8D8D8D;
 
+}
+
+.resume-holder p, .resume-holder span, .resume-holder ul, .resume-holder h5 {
+	float:left;
+	width: 100%;
+}
+
+
+.resume-holder li {
+	/*float:left;*/
+	width: 90%;
+	margin: 10px 5%;
+	padding: 0;
+}
+
+.resume-holder span {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 80px;
+}
+
+.resume-holder h5 {
+	color:rgba(253, 0, 11, 0.66);
+	font-weight: normal;
+	font-size: 18px;
+	text-align: center;
 }
